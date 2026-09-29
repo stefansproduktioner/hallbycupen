@@ -140,7 +140,11 @@ footer{background:var(--black);color:var(--white);border-top:7px solid var(--yel
   .wrap{width:min(100% - 20px,1040px)}
   .grid{grid-template-columns:1fr}
   .checklist{grid-template-columns:1fr}
-  h1{font-size:48px}
+  .brand{align-items:center;gap:10px}
+  .brand > div{min-width:0}
+  .logo{width:68px;height:68px}
+  h1{font-size:clamp(28px,9vw,34px);line-height:.9;letter-spacing:-.06em;white-space:nowrap;margin:6px 0 9px}
+  .hero-sub{font-size:13px;line-height:1.35}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 </style>
